@@ -1,6 +1,5 @@
-import flet as ft
+import tkinter
 
-def main(page: ft.Page):
-    page.add(ft.Text(value="Hello, world!"))
+root = tkinter.Tk()
+root.mainloop()
 
-ft.app(target=main)
